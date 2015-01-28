@@ -8,7 +8,9 @@
 
 <h1 class="site-meta {% if has_feed_class %} {{ has_feed_class }} {% endif %}">
     <a href="{{ config.root }}" class="brand">
-        <span class="logo the-shape"></span>
+        <span class="site-face">
+            <img src="{{ config.face_url }}" />
+        </span>
         <span class="site-title">{{ config.title }}</span>
     </a>
     {% if feed_path %}
