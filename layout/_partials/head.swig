@@ -18,6 +18,6 @@
 {% endif %}
 
 {% if theme.favicon %}
-    <link rel="icon" type="image/x-icon" href="{{ theme.favicon }}" />
+    <link rel="shortcut icon" type="image/x-icon" href="{{ config.favicon }}" />
 {% endif %}
 
